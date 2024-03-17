@@ -28,8 +28,10 @@
   margin-right: 24px;
 }
 
-.youtube-logo {
-  height: 20px;
+.Qvision3-logo {
+  height: 55.7px;
+  width: 150px;
+  
 }
 
 .middle-section {
@@ -201,4 +203,40 @@
 .youtube-apps-icon-container:hover .tooltip,
 .notifications-icon-container:hover .tooltip {
   opacity: 1;
+}
+
+/*style image and video holder*/
+.image-container
+{
+ position: relative;
+ overflow: hidden;
+}
+/* style image (thumbnail)
+
+.thumbnail{
+ width: 640px;
+ height: 480px;
+
+}
+
+*/
+.video{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+/* opacity: 1; hide video behide image*/
+z-index: 1;
+
+}
+image
+{
+
+  width: 640px;
+  height: 480;
+}
+.image-container
+{
+  cursor: pointer;/*change cursor to indicate clickable object*/
 }

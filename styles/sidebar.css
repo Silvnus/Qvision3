@@ -18,9 +18,15 @@
   cursor: pointer;
 }
 
-.sidebar-link:hover {
-  background-color: rgb(235, 235, 235);
+.sidebar-link:hover .linker {
+  
+  color: red;
 }
+.sidebar-link:focus .linker {
+  
+  color: rgb(6, 49, 245);
+}
+
 
 .sidebar-link img {
   height: 24px;
