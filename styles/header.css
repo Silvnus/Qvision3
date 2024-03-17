@@ -29,8 +29,9 @@
 }
 
 .Qvision3-logo {
-  height: 55.7px;
-  width: 150px;
+  height: 100%;
+  width: 100%;
+  position: inherited;
   
 }
 
