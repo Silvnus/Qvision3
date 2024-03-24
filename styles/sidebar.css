@@ -22,11 +22,6 @@
   
   color: red;
 }
-.sidebar-link:focus .linker {
-  
-  color: rgb(6, 49, 245);
-}
-
 
 .sidebar-link img {
   height: 24px;
@@ -35,4 +30,7 @@
 
 .sidebar-link div {
   font-size: 10px;
+}
+.linker{
+  text-decoration: none;
 }

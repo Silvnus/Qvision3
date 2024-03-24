@@ -110,6 +110,7 @@
 .video-preview:hover .thumbnail
 {
  opacity: 0;
+ cursor: pointer;
 
 
 }
